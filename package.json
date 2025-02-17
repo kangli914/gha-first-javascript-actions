@@ -1,5 +1,5 @@
 {
-  "name": "javascript-action-template",
+  "name": "gha-first-javascript-actions",
   "version": "1.0.0",
   "description": "A template for creating an Action using JavaScript",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kangli914/javascript-action-template.git"
+    "url": "git+https://github.com/kangli914/gha-first-javascript-actions.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kangli914/javascript-action-template/issues"
+    "url": "https://github.com/kangli914/gha-first-javascript-actions/issues"
   },
-  "homepage": "https://github.com/kangli914/javascript-action-template#readme",
+  "homepage": "https://github.com/kangli914/gha-first-javascript-actions#readme",
   "dependencies": {
     "@actions/core": "^1.11.1",
     "@actions/github": "^5.1.1"
