@@ -9,4 +9,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # - uses: YOUR_GITHUB_USER_NAME/YOUR_GITHUB_REPO_NAME@main
       - uses: kangli914/gha-first-javascript-actions@main
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          input_1: "testing testing 1 2 3"
+
