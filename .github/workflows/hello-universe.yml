@@ -9,6 +9,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: kangli914/javascript-action-template@main
+      - uses: kangli914/gha-first-javascript-actions@main
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
